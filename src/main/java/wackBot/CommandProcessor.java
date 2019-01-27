@@ -49,6 +49,8 @@ public class CommandProcessor {
             Dia.Dia(message);
         } else if (command[0].equals("hij")) {
             Hij.Hij(message);
+        } else if (command[0].equals("hillary")) {
+            Hillary.hillary(message);
         }
 
 

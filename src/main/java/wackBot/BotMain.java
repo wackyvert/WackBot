@@ -12,7 +12,7 @@ import sx.blah.discord.util.RequestBuffer;
 public class BotMain {
 
 
-    public static final IDiscordClient bot  = createClient("NTA1MTI5NzY1OTU5ODkzMDEz.Dvcwmw.lJDbDnyEvDYA_0mNrKwYNik--10", true);
+    public static final IDiscordClient bot  = createClient("", true);
 
     public static void main (String args[]){
         EventDispatcher dis = bot.getDispatcher();
