@@ -12,9 +12,10 @@ import sx.blah.discord.util.RequestBuffer;
 public class BotMain {
 
 
-    public static final IDiscordClient bot  = createClient("", true);
+
 
     public static void main (String args[]){
+        IDiscordClient bot = createClient(args[0], true);
         EventDispatcher dis = bot.getDispatcher();
         dis.registerListener(new BotListener());
     }

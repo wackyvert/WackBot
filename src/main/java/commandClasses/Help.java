@@ -5,8 +5,8 @@ import sx.blah.discord.handle.obj.IMessage;
 import sx.blah.discord.handle.obj.IUser;
 import sx.blah.discord.util.EmbedBuilder;
 import wackBot.CommandProcessor;
+import wackBot.BotMain;
 
-import static wackBot.BotMain.bot;
 
 public class Help extends CommandProcessor {
 
@@ -22,12 +22,12 @@ public class Help extends CommandProcessor {
                         "\n/analysis: Sends a command asking Kowalski for an analysis." +
                         "\n/info: Sends a simplified version of the help text without the command list." +
                         "\n/coinflip: Flips a coin." +
-                        "\n/request: Takes original message, echos it then adds reaction emojis which can be used to vote on a request or suggestion." +
+                        "\n/request: Takes original message, echoes it, then adds reaction emojis which can be used to vote on a request or suggestion." +
                         "\n[Invite Link](https://discordapp.com/api/oauth2/authorize?client_id=505129765959893013&permissions=8&scope=bot)");
                 HelpEmbed.withTitle("WackBot");
-    IUser PMCaller = message.getAuthor();
-    PrivateChannel PMChannel = (PrivateChannel) bot.getOrCreatePMChannel(PMCaller);
-            PMChannel.sendMessage(HelpEmbed.build());
-            message.delete();
+        // IUser PMCaller = message.getAuthor();
+        //PrivateChannel PMChannel = (PrivateChannel) bot.getOrCreatePMChannel(PMCaller);
+        // PMChannel.sendMessage(HelpEmbed.build());
+        //   message.delete();
 
 }}

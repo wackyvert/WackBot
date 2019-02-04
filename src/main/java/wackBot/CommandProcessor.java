@@ -13,7 +13,8 @@ import sx.blah.discord.handle.obj.IUser;
 import sx.blah.discord.util.EmbedBuilder;
 import sx.blah.discord.util.RequestBuffer;
 import java.io.IOException;
-import static wackBot.BotMain.bot;
+
+import static wackBot.BotMain.main;
 
 
 
