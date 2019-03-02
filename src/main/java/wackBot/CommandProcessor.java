@@ -33,7 +33,7 @@ public class CommandProcessor {
 
 
         String[] command = message.getContent().toLowerCase().replaceFirst(prefix, "").split(" ");
-        if (command[0].equals("request")) {
+        if (command[0].equals("request") & !sender.isBot()) {
             Request.Request(message);
         } else if (command[0].equals("<@505129765959893013>")) {
            Help.Help(message);

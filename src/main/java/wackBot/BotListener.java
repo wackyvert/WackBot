@@ -13,7 +13,7 @@ public class BotListener {
     public void onMessageEvent(MessageReceivedEvent event) throws InterruptedException, IOException {
 
 
-        if (event.getMessage().getContent().toLowerCase().startsWith(prefix));
+        if (event.getMessage().getContent().toLowerCase().startsWith(prefix).isBot) ;
         CommandProcessor.processCommand(event.getMessage(), prefix);
     }
 }
