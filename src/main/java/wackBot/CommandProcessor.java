@@ -37,7 +37,6 @@ public class CommandProcessor {
             Request.Request(message);
         } else if (command[0].equals("<@505129765959893013>")) {
            Help.Help(message);
-
         } else if (command[0].equals("coinflip")) {
             Coinflip.Coinflip(message);
         } else if (command[0].equals("analysis")) {

@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f92c9bef-9ba9-4864-a7de-103d168e11ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wackBot/BotListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wackBot/BotListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wackBot/CommandProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wackBot/CommandProcessor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -136,25 +134,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="5" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1085" />
-          <entry key="txt" value="109" />
+          <entry key="java" value="1103" />
+          <entry key="txt" value="358" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1085" />
-          <entry key="PLAIN_TEXT" value="109" />
+          <entry key="JAVA" value="1103" />
+          <entry key="PLAIN_TEXT" value="358" />
         </counts>
       </usages-collector>
     </session>
@@ -164,20 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/wackBot/BotMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="238">
               <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/commandClasses/Request.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -236,8 +222,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/wackBot/CommandProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+            <state relative-caret-position="357">
+              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/commandClasses/GetOnlineAdrian.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -248,8 +246,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/wackBot/BotListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
+            <state relative-caret-position="85">
+              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -316,8 +314,8 @@
         <option value="$PROJECT_DIR$/src/main/java/wackBot/BotMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/commandClasses/Ban.java" />
         <option value="$PROJECT_DIR$/src/main/java/commandClasses/Help.java" />
-        <option value="$PROJECT_DIR$/src/main/java/wackBot/BotListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/wackBot/CommandProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wackBot/BotListener.java" />
       </list>
     </option>
   </component>
@@ -501,7 +499,7 @@
       <workItem from="1548732011760" duration="2939000" />
       <workItem from="1549173913138" duration="1233000" />
       <workItem from="1551220995840" duration="82000" />
-      <workItem from="1551480213569" duration="903000" />
+      <workItem from="1551480213569" duration="2120000" />
     </task>
     <task id="LOCAL-00001" summary="yay">
       <created>1548569901923</created>
@@ -524,11 +522,25 @@
       <option name="project" value="LOCAL" />
       <updated>1549243259138</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="V1.03, fixed the onMessageReceived event so it doesn't respond to any bots (even though thats not the thing that was screwing it up in the first place ) because sam told me to">
+      <created>1551488806851</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551488806851</updated>
+    </task>
+    <task id="LOCAL-00005" summary="V1.03, fixed the onMessageReceived event so it doesn't respond to any bots (even though thats not the thing that was screwing it up in the first place ) because sam told me to (LETS TRY THIS ONE AGAIN I FUCKED THE FIRST COMMIT UP)">
+      <created>1551488920582</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551488920582</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100573000" />
+    <option name="totallyTimeSpent" value="101790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -606,7 +618,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="yay" />
     <MESSAGE value="V1.02, added token into program arguments instead of leaving in main class for everyone to see." />
-    <option name="LAST_COMMIT_MESSAGE" value="V1.02, added token into program arguments instead of leaving in main class for everyone to see." />
+    <MESSAGE value="V1.03, fixed the onMessageReceived event so it doesn't respond to any bots (even though thats not the thing that was screwing it up in the first place ) because sam told me to" />
+    <MESSAGE value="V1.03, fixed the onMessageReceived event so it doesn't respond to any bots (even though thats not the thing that was screwing it up in the first place ) because sam told me to (LETS TRY THIS ONE AGAIN I FUCKED THE FIRST COMMIT UP)" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.03, fixed the onMessageReceived event so it doesn't respond to any bots (even though thats not the thing that was screwing it up in the first place ) because sam told me to (LETS TRY THIS ONE AGAIN I FUCKED THE FIRST COMMIT UP)" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -757,23 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commandClasses/GetOnlineAdrian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wackBot/BotMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/commandClasses/Request.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -832,17 +829,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commandClasses/GetOnlineAdrian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/wackBot/BotListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
+        <state relative-caret-position="85">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wackBot/BotMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/wackBot/CommandProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        <state relative-caret-position="357">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

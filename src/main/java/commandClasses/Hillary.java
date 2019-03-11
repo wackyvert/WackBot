@@ -7,7 +7,7 @@ import sx.blah.discord.util.RequestBuffer;
 public class Hillary {
     public static void hillary (IMessage message){
         String messageSent = message.getContent().substring(9);
-        int numOfMessages = Integer.parseInt(messageSent);
+        int numOfMessages = Integer.parseInt(messageSent) + 1;
         MessageHistory clear = message.getChannel().getMessageHistory(numOfMessages);
         RequestBuffer.request(() -> message.getChannel().bulkDelete(clear));
         message.delete();
