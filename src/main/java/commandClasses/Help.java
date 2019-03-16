@@ -1,5 +1,6 @@
 package commandClasses;
 
+import sx.blah.discord.api.IDiscordClient;
 import sx.blah.discord.handle.impl.obj.PrivateChannel;
 import sx.blah.discord.handle.obj.IMessage;
 import sx.blah.discord.handle.obj.IUser;
@@ -10,7 +11,7 @@ import wackBot.BotMain;
 
 public class Help extends CommandProcessor {
 
-    public static void Help(IMessage message){
+    public static void Help(IMessage message, IDiscordClient bot) {
 
         EmbedBuilder HelpEmbed = new EmbedBuilder();
                 HelpEmbed.appendField("Simple bot, WIP", "Number 15: Burger King Foot Lettuce", true);
@@ -25,9 +26,9 @@ public class Help extends CommandProcessor {
                         "\n/request: Takes original message, echoes it, then adds reaction emojis which can be used to vote on a request or suggestion." +
                         "\n[Invite Link](https://discordapp.com/api/oauth2/authorize?client_id=505129765959893013&permissions=8&scope=bot)");
                 HelpEmbed.withTitle("WackBot");
-        // IUser PMCaller = message.getAuthor();
-        //PrivateChannel PMChannel = (PrivateChannel) bot.getOrCreatePMChannel(PMCaller);
-        // PMChannel.sendMessage(HelpEmbed.build());
-        //   message.delete();
+        IUser PMCaller = message.getAuthor();
+        PrivateChannel PMChannel = (PrivateChannel) bot.getOrCreatePMChannel(PMCaller);
+        PMChannel.sendMessage(HelpEmbed.build());
+        message.delete();
 
 }}
