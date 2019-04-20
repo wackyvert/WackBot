@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="WackBot" />
+        <module name="wackbot" />
         <module name="WackBotGit" />
       </profile>
     </annotationProcessing>

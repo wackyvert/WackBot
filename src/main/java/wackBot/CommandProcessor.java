@@ -4,6 +4,7 @@ package wackBot;
 
 
 import commandClasses.*;
+import sx.blah.discord.api.IDiscordClient;
 import sx.blah.discord.handle.impl.obj.PrivateChannel;
 import sx.blah.discord.handle.impl.obj.ReactionEmoji;
 import sx.blah.discord.handle.obj.IChannel;
@@ -26,7 +27,8 @@ public class CommandProcessor {
     {
         System.out.println("yeet");
     }
-    public static void processCommand(IMessage message, String prefix) throws InterruptedException, IOException {
+
+    public static void processCommand(IMessage message, IDiscordClient bot, String prefix) throws InterruptedException, IOException {
         IUser sender=message.getAuthor();
         IChannel channel=message.getChannel();
         IGuild guild=message.getGuild();
@@ -36,13 +38,13 @@ public class CommandProcessor {
         if (command[0].equals("request") & !sender.isBot()) {
             Request.Request(message);
         } else if (command[0].equals("<@505129765959893013>")) {
-           Help.Help(message);
+            Help.Help(message, bot);
         } else if (command[0].equals("coinflip")) {
             Coinflip.Coinflip(message);
         } else if (command[0].equals("analysis")) {
             Analysis.Analysis(message);
         } else if (command[0].equals("help")) {
-            Help.Help(message);
+            Help.Help(message, bot);
         } else if (command[0].equals("getonlineadrian")){
             GetOnlineAdrian.getOnlineAdrian(message);
         } else if (command[0].equals("dia")) {
