@@ -23,7 +23,12 @@ public class Help extends CommandProcessor {
                         "\n/analysis: Sends a command asking Kowalski for an analysis." +
                         "\n/info: Sends a simplified version of the help text without the command list." +
                         "\n/coinflip: Flips a coin." +
+                        "\n/HIJ: only can be used in #bot-spam. Spams a meme about Hudson. I'm warming you." +
+                        "\n/DIA: Same as HIJ but with Elijah." +
+                        "\n/hillary: Works like SovietBot's \"purge\" command. Can delete a large amount of messages at once, takes an argument which dictates how many will be deleted." +
                         "\n/request: Takes original message, echoes it, then adds reaction emojis which can be used to vote on a request or suggestion." +
+                        "\n/memereview: Starts meme review, and pings here." +
+                        "\n/ratememe: Rates the meme, takes any number as long as it's positive." +
                         "\n[Invite Link](https://discordapp.com/api/oauth2/authorize?client_id=505129765959893013&permissions=8&scope=bot)");
                 HelpEmbed.withTitle("WackBot");
         IUser PMCaller = message.getAuthor();

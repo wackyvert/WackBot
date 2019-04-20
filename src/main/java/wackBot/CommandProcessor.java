@@ -53,6 +53,10 @@ public class CommandProcessor {
             Hij.Hij(message);
         } else if (command[0].equals("hillary")) {
             Hillary.hillary(message);
+        } else if (command[0].equals("memereview")) {
+            MemeReview.Dia(message);
+        } else if (command[0].equals("ratememe")) {
+            RateMeme.rate(message);
         }
 
 
